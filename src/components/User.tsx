@@ -2,6 +2,7 @@ import React from "react";
 
 type userProps = {
   user: {
+    id: number | string;
     name: string;
     age: number;
     isRegistered: boolean;
