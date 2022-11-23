@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Button from "./components/Button";
+import Counter from "./components/Counter";
 import FetchData from "./components/FetchData";
 import StateManagement from "./components/StateManagement";
 import StyleBtn from "./components/StyleBtn";
@@ -39,7 +40,8 @@ const App = () => {
       {/* <FetchData status="success" /> */}
       {/* <Button>Click Me! (- _ -)</Button>
       <StyleBtn btnStyle={btnStyle} /> */}
-      <StateManagement />
+      {/* <StateManagement /> */}
+      <Counter />
     </div>
   );
 };
