@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Button from "./components/Button";
 import FetchData from "./components/FetchData";
+import StateManagement from "./components/StateManagement";
 import StyleBtn from "./components/StyleBtn";
 import UserDemo from "./components/UserDemo";
 
@@ -33,11 +34,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>User Management</h1>
+      {/* <h1>User Management</h1> */}
       {/* <UserDemo users={users} /> */}
       {/* <FetchData status="success" /> */}
-      <Button>Click Me! (- _ -)</Button>
-      <StyleBtn btnStyle={btnStyle} />
+      {/* <Button>Click Me! (- _ -)</Button>
+      <StyleBtn btnStyle={btnStyle} /> */}
+      <StateManagement />
     </div>
   );
 };
