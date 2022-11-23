@@ -26,7 +26,16 @@
 ## 2. Environment setup
 
 - install node & VSCode
-- install react+ts -> `npx create-react-app appName --template typescript`
+- install react + ts ⬇️⬇️⬇️ 
+
+#### yarn
+
+```sh
+yarn create react-app my-app --template typescript
+
+```
+
+Or
 
 #### npm
 
