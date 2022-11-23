@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import State1 from "./State1";
+import State2 from "./State2";
 
 const StateManagement = () => {
   // type is automatically infereed as number
@@ -12,11 +14,14 @@ const StateManagement = () => {
     setCount((count) => count - 1);
   };
   return (
-    <div>
-      <h1>Count : {count}</h1>
-      <button onClick={handleIncrement}>+</button>
-      <button onClick={handleDecrement}>-</button>
-    </div>
+    <>
+      <div>
+        <h1>Count : {count}</h1>
+        <button onClick={handleIncrement}>+</button>
+        <button onClick={handleDecrement}>-</button>
+      </div>
+      <State2 />
+    </>
   );
 };
 
