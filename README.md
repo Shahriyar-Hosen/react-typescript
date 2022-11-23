@@ -27,12 +27,11 @@
 
 - install node & VSCode
 - install react+ts -> `npx create-react-app appName --template typescript`
-- npm
+
+#### npm
 
 ```sh
-
-    npx create-react-app appName --template typescript
-
+npx create-react-app appName --template typescript
 
 ```
 
